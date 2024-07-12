@@ -1,8 +1,15 @@
-# React + Vite
+![Technologies](https://skillicons.dev/icons?i=react,js,tailwind,vite)
+# Documentación del FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hola, comenzaremos explicando lo que es este frontend: es una aplicación web que se encarga de poder interactuar con el backend del voicebot, es decir, es la interfaz gráfica que se encarga de poder enviar y recibir mensajes del backend.
 
-Currently, two official plugins are available:
+En este frontend se pueden realizar las siguientes acciones:
+- Enviar mensajes al backend.
+- Recibir mensajes del backend.
+- Ver el historial de mensajes enviados y recibidos.
+- Ver el historial de mensajes enviados y recibidos de un chat en específico.
+- Ver el historial de mensajes enviados y recibidos de un chat en específico en un rango de fechas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Estructura
+
+El proyecto fue realizado con React, JavaScript, Vite y TailwindCSS.

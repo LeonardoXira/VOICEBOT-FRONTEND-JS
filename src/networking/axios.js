@@ -2,7 +2,6 @@ import axios from 'axios'
 
 const handleServerError = (error) => {
   console.error(error.response)
-
   if (error.response?.status === 401 && error.response?.data === 'Unauthorized') {
     console.error('Unauthorized')
   } else if (error.response?.status === 500) {

@@ -1,16 +1,5 @@
 import PropTypes from 'prop-types'
 
-SendIcon.propTypes = {
-  className: PropTypes.string,
-  width: PropTypes.number,
-  height: PropTypes.number
-}
-
-SendIcon.defaultProps = {
-  width: 512,
-  height: 512
-}
-
 export const SendIcon = ({ className, width, height }) => {
   return (
     <svg
@@ -31,4 +20,15 @@ export const SendIcon = ({ className, width, height }) => {
       </g>
     </svg>
   )
+}
+
+SendIcon.propTypes = {
+  className: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number
+}
+
+SendIcon.defaultProps = {
+  width: 512,
+  height: 512
 }

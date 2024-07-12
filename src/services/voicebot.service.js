@@ -10,6 +10,8 @@ class VoicebotService {
       extraInfo
     })
 
+    console.log('Llamada iniciada: ', response.data)
+
     return response.data
   }
 

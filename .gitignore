@@ -1,3 +1,12 @@
+# Environments
+.env
+
+# Dependency directories
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
 # Logs
 logs
 *.log
@@ -7,7 +16,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
 dist
 dist-ssr
 build
@@ -24,5 +32,3 @@ build-ssr
 *.njsproj
 *.sln
 *.sw?
-
-yarn.lock

@@ -1,16 +1,5 @@
 import PropTypes from 'prop-types';
 
-ChatIcon.propTypes = {
-  className: PropTypes.string,
-  width: PropTypes.number,
-  height: PropTypes.number
-};
-
-ChatIcon.defaultProps = {
-  width: 512,
-  height: 512
-};
-
 export const ChatIcon = ({ className, width, height }) => {
   return (
     <svg
@@ -29,3 +18,14 @@ export const ChatIcon = ({ className, width, height }) => {
     </svg>
   )
 }
+
+ChatIcon.propTypes = {
+  className: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number
+};
+
+ChatIcon.defaultProps = {
+  width: 512,
+  height: 512
+};
